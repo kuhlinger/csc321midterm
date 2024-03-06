@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNA</title>
+    <link rel="icon" href="munalogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p>Kara Uhlinger 692444</p>
+<header>
+    <div class="header">
+        <div>
+            <a href="https://www.whereismuna.com/">
+              <img src="munalogo.png" alt="MUNA logo" class="logo">
+          </a>
+          
+        </div>
+        <div class="social">
+            <a href="#" class="nav-item"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" class="nav-item"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#" class="nav-item"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#" class="nav-item"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </div>
+</header>
+
+<div class="navbar">
+    <a href="https://smarturl.it/MUNASTW/officialstore" class="nav-item">SHOP</a>
+    <a href="https://muna.saddestrec.co/muna-album" class="nav-item">MUSIC</a>
+    <a href="#tour" class="nav-item">TOUR</a>
+    <a href="#follow" class="nav-item">JOIN</a>
+    <a href="https://headgum.com/gayotic-with-muna" class="nav-item">GAYOTIC</a>
+</div>
+
+<div class="one-that-got-away">
+  <p>"ONE THAT GOT AWAY” OUT NOW</p>
+  <a href="https://muna.saddestrec.co/one-that-got-away" id="stream">STREAM "ONE THAT GOT AWAY"</a>
+</div>
+
+<div>
+  <a href="https://muna.saddestrec.co/one-that-got-away">
+    <img src="otga.jpg" alt="One That Got Away artwork" class="otga">
+  </a>
+</div>
+
+<div class="self">
+  <p>MUNA OUT NOW</p>
+  <a href="https://muna.saddestrec.co/muna-album" id="order">ORDER NEW ALBUM MUNA AVAILABLE NOW</a>
+</div>
+
+<div>
+  <a href="https://muna.saddestrec.co/muna-album">
+    <img src="artwork.png" alt="MUNA artwork" class="muna">
+  </a>
+</div>
+
+<main id="main">
+  <article id="tour">
+      <div class="container">
+          <h2>Tour</h2>
+          <div id="seated-55fdf2c0" data-artist-id="975a12d9-762f-44ca-a525-2f05277e76c2" data-css-version="2"></div>
+          <script src="https://widget.seated.com/app.js"></script>
+      </div>
+  </article>
+</main>
+
+<script src="script.js"></script>
+<script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+</html>

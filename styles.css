@@ -1,0 +1,89 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+/* Adding margin to everything on the left-hand side */
+body {
+  margin-left: 20px; /* Adjust this value as needed */
+}
+
+/* Container for logo and navbar */
+.header {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space out items */
+}
+
+/* Styling the navigation items */
+.nav-item {
+  display: block;
+  padding: 10px;
+  color: black; /* Default text color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+  transition: color 0.3s ease; /* Add transition for color change */
+}
+
+/* Changing background color of nav items on hover */
+.nav-item:hover {
+  color: rgb(178, 73, 73); /* Background color when hovered */
+}
+
+
+/* Styling the image */
+.logo {
+  width: 275px; /* Adjust this value as needed */
+  margin-top: 20px; /* Adjust this value to add spacing from the top */
+  margin-bottom: 40px;
+}
+
+/* Styling for the social icons */
+.social .nav-item img {
+  width: 30px; /* Adjust as needed */
+  margin-left: 10px; /* Add spacing between icons */
+}
+
+/* Styling for the .otga */
+.otga {
+  width: 500px; /* Adjust this value as needed */
+  margin-left: 500px;
+  margin-top: -525px;
+}
+
+/* Styling for the .one-that-got-away */
+.one-that-got-away {
+  font-size: 1.75em;
+  margin-top: 200px; /* Adjust this value as needed */
+  margin-left: 150px;
+}
+
+#stream {
+  font-weight: bolder;
+  font-size: 0.9em;
+  margin-left: 43px;
+}
+
+/* Styling for the .otga */
+.muna {
+  width: 500px; /* Adjust this value as needed */
+  margin-left: 500px;
+  margin-top: -550px;
+}
+
+/* Styling for the .one-that-got-away */
+.self {
+  font-size: 1.75em;
+  margin-top: 475px; /* Adjust this value as needed */
+  margin-left: 340px;
+}
+
+#order {
+  font-weight: bolder;
+  font-size: 0.9em;
+  margin-left: -233px;
+}
